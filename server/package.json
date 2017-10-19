@@ -14,6 +14,7 @@
     "debug": "~2.2.0",
     "ejs": "^2.5.7",
     "express": "~4.13.4",
+    "express-robots": "^0.1.6",
     "morgan": "~1.7.0",
     "request": "^2.83.0",
     "serve-favicon": "~2.3.0"
