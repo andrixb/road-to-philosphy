@@ -29,11 +29,6 @@ app.use(haltOnTimedout);
 
 app.use('/', routes);
 
-app.get('/robots.txt', function (req, res) {
-    res.type('text/plain');
-    res.send("User-agent: *\nDisallow: /");
-});
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
